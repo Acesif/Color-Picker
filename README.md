@@ -8,5 +8,5 @@ The Simple mode shows you basic colors and switches upon clicking the button
 ### Hex
 The Hex mode shows you countless possibilities of Hex colors upon clicking the button.
 
-Live site link: [here]()
+Live site link: [here](https://acesif.github.io/Color-Picker/)
 ![](./screenshot.png)
