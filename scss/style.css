@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, a:visited, a:active, a:hover {
+  color: black;
+}
+
+body {
+  font-family: "Serif";
+}
+
+#simple, #hex {
+  text-decoration: underline;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex-cen-cen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-cen {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.flex-sb-cen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav {
+  background-color: paleturquoise;
+  padding: .75rem 18.5rem;
+  height: 10vh;
+}
+
+nav .nav-links > a {
+  text-decoration: none;
+}
+
+#section {
+  height: 90vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f1f5f4;
+  gap: .975rem;
+  opacity: 0.8;
+}
+
+#section h4 {
+  border: 1px solid black;
+  padding: 1.25rem 2.5rem;
+  background-color: #ffff;
+  opacity: 0.9;
+}
+
+#section button {
+  border: none;
+  background-color: black;
+  padding: 0.8rem 2rem;
+  border-radius: 1.25rem;
+  color: #f2f2f2;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

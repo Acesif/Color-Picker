@@ -1,0 +1,14 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,a:visited,a:active,a:hover{
+    color: black;
+}
+body{
+    font-family: "Serif";
+}
+#simple,#hex{
+    text-decoration: underline;
+}

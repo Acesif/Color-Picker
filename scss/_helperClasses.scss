@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+}
+.inline-block{
+    display: inline-block;
+}
+.flex-cen-cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align-cen{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flex-sb-cen{
+    display: flex;
+    justify-content: space-between;
+}

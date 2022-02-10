@@ -1,0 +1,22 @@
+#section{
+    height: 90vh;
+    flex-direction: column;
+    background-color: #f1f5f4;
+    gap: .975rem;
+    opacity: 0.8;
+    h4{
+        border: 1px solid black;
+        padding: 1.25rem 2.5rem;
+        background-color: #ffff;
+        opacity: 0.9;
+    }
+    button{
+        border: none;
+        background-color: black;
+        padding: 0.8rem 2rem;
+        border-radius: 1.25rem;
+        color: #f2f2f2;
+        letter-spacing: 3px;
+        cursor: pointer;
+    }
+}
